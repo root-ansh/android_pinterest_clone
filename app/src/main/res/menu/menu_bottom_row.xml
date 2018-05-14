@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mitem_home"
+        android:title="home"
+        android:icon="@drawable/app2"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/mitem_explore"
+        android:title="explore"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/mitem_notif"
+        android:title="notifications"
+        android:icon="@drawable/ic_more_horiz_black_24dp"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/mitem_profile"
+        android:title="profile"
+        android:icon="@drawable/ic_person_black_24dp"
+        app:showAsAction="always"
+        />
+
+
+
+</menu>

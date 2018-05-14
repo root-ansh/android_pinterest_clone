@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    tools:context=".MainActivity">
+
+
+    <FrameLayout
+        android:id="@+id/frame_act_main"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:background="#ccc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bnv_bottom_bar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+
+        android:background="#fff"
+        app:elevation="3dp"
+        app:itemIconTint="@android:color/holo_red_dark"
+        app:itemTextColor="@android:color/holo_red_dark"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+
+        app:menu="@menu/menu_bottom_row"></android.support.design.widget.BottomNavigationView>
+
+
+</android.support.constraint.ConstraintLayout>

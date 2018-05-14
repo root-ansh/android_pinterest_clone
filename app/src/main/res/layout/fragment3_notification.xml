@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white2"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".NotificationFragmentFiles.NotificationFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:background="@drawable/bg_profile_searchbox"
+        android:layout_margin="16dp"
+        android:padding="3dp">
+
+        <Button
+            android:id="@+id/bt_notif_1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="35dp"
+            android:elevation="0dp"
+            android:background="@color/white2"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="Notifications"
+            />
+        <Button
+            android:id="@+id/bt_notif_2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="35dp"
+            android:elevation="0dp"
+            android:background="@drawable/bg_profile_btn_unselected"
+            android:textAllCaps="false"
+            android:textColor="@color/grey"
+            android:textStyle="bold"
+            android:text="Inbox"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Work in Progress!!"
+        android:gravity="center"/>
+</FrameLayout>
